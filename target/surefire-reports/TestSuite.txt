@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 187.159 s <<< FAILURE! - in TestSuite
+com.mv.GetsPlacements1.GetsPlacementTest.TestMethod  Time elapsed: 184.905 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find MSEdge binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MLPT003', ip: '192.168.0.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00007FF67BBF7C42+3636290]
+	Ordinal0 [0x00007FF67BB0F949+2685257]
+	Ordinal0 [0x00007FF67B9AC0B1+1228977]
+	Ordinal0 [0x00007FF67B8FD535+513333]
+	Ordinal0 [0x00007FF67B8FA854+501844]
+	Ordinal0 [0x00007FF67B92EA47+715335]
+	Ordinal0 [0x00007FF67B92BEAF+704175]
+	Ordinal0 [0x00007FF67B9060E3+549091]
+	Ordinal0 [0x00007FF67B906EAE+552622]
+	Ordinal0 [0x00007FF67BB2CCA5+2804901]
+	GetHandleVerifier [0x00007FF67BD41DAC+1210124]
+	GetHandleVerifier [0x00007FF67BD41B20+1209472]
+	GetHandleVerifier [0x00007FF67BD56A91+1295345]
+	GetHandleVerifier [0x00007FF67BD428F4+1213012]
+	Ordinal0 [0x00007FF67BB20A08+2755080]
+	Ordinal0 [0x00007FF67BB2F079+2814073]
+	Ordinal0 [0x00007FF67BB4CEB8+2936504]
+	BaseThreadInitThunk [0x00007FF9D2ED7BD4+20]
+	RtlUserThreadStart [0x00007FF9D3BCCED1+33]
+
+	at com.mv.GetsPlacements1.GetsPlacementTest.TestMethod(GetsPlacementTest.java:46)
+
